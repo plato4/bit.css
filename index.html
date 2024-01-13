@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BIT.css</title>
+    <link rel="stylesheet" href="bit.css" />
+    <style>
+      body {
+        background: black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div
+      style="
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+      "
+    >
+      <div
+        class="bit-container"
+        style="
+          width: calc(var(--resolution) * 128);
+          height: calc(var(--resolution) * 128);
+          user-select: none;
+        "
+      >
+        <div class="bit-text">Container</div>
+        <p></p>
+        <div class="bit-container" style="background-color: darkgrey">
+          <div class="bit-title" style="background-color: darkgrey">Tab</div>
+          <div
+            class="bit-container indent"
+            style="background-color: cornflowerblue"
+          >
+            Text box
+          </div>
+          <div
+            class="bit-button"
+            style="
+              max-height: calc(var(--resolution) * 11);
+              margin: calc(var(--resolution) * 16);
+              display: flex;
+              justify-content: center;
+            "
+          >
+            Button
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
