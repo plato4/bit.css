@@ -1,3 +1,3 @@
 A pixel art CSS framework and font
 
-uses box-shadows to achieve a pixel art effect.
+The css is pixel perfect and maintains the same resolution for any window size. Entirely uses box-shadows to achieve the pixel-art style (no border-images used).
